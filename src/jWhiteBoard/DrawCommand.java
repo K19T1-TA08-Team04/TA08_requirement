@@ -11,11 +11,6 @@ import java.io.DataOutput;
  * Used by the {@link JWhiteBoard} and other demos.
  *
  */
-/**
- * 
- * @author Natsume Reiko
- *
- */
 public class DrawCommand implements Streamable {
     static final byte DRAW=1;
     static final byte CLEAR=2;
@@ -83,3 +78,4 @@ public class DrawCommand implements Streamable {
     }
 
 }
+
