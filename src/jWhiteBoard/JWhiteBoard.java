@@ -280,6 +280,11 @@ private void sendToAll(byte[] buf) throws Exception {
  * 
  * @throws Exception
  */
+/**
+ * 
+ * @throws Exception
+ */
+
 public void go() throws Exception {
 	if (!noChannel && !useState)
 		channel.connect(groupName);
